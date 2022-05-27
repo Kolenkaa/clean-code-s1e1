@@ -34,6 +34,7 @@
   margin: 0 auto 0;
 }
 
+.input-task,
 .task {
   width: 56%;
   display: inline-block;
