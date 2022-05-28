@@ -13,15 +13,15 @@
     </header>
     <main class="main">
       <section class="task-container addition" id="add-item">
-        <h3 class="title" for="new-task">Add Item</h3>
+        <h3 class="addition__title title" for="new-task">Add Item</h3>
         <div class="addition__task-wrapper">
-          <input class="task__input" id="new-task" type="text">
+          <input class="addition__task task__input" id="new-task" type="text">
           <button class="addition__btn btn">Add</button>
         </div>
       </section>
-      <section class="task-container">
-        <h3 class="title">Todo</h3>
-        <ul class="task-list task" id="incomplete-tasks">
+      <section class="task-container task">
+        <h3 class="task__title title">Todo</h3>
+        <ul class="task__list" id="incomplete-tasks">
           <li class="task__item">
             <input class="task__checkbox" type="checkbox">
             <label class="task__label">Pay Bills</label>
@@ -31,7 +31,7 @@
               <img class="img" src="./remove.svg" alt="button delete">
             </button>
           </li>
-          <li class="edit-mode task__item">
+          <li class="task__item edit-mode">
             <input class="task__checkbox" type="checkbox">
             <label class="task__label">Go Shopping</label>
             <input class="task__input" type="text" value="Go Shopping">
@@ -42,9 +42,9 @@
           </li>
         </ul>
       </section>
-      <section class="task-container">
-        <h3 class="title">Completed</h3>
-        <ul class="task-list task" id="completed-tasks">
+      <section class="task-container task">
+        <h3 class="task__title title">Completed</h3>
+        <ul class="task__list task__list-completed" id="completed-tasks">
           <li class="task__item">
             <input class="task__checkbox" type="checkbox" checked>
             <label class="task__label">See the Doctor</label>
