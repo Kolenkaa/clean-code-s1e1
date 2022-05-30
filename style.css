@@ -132,7 +132,7 @@
   width: 226px;
 }
 
-.task__item > .task__input {
+.task__item .task__input {
   width: 226px;
 }
 
